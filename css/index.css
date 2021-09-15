@@ -1,0 +1,79 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(251, 206, 206);
+}
+ol li, p, small{
+    font-family: 'Nunito', sans-serif;
+}
+h1, h3{
+    font-family: 'Chango', cursive;
+}
+.navbar{
+    background-color: rgb(251, 145, 145);
+    min-height: 230px;
+}
+.navbar .search{
+    position: absolute;
+    top: 28%;
+    left: 85%;
+    padding: 5px;
+    border-radius: 5px;
+    border-style: none; 
+}
+.navbar img{
+    height: 30%;
+    width: 30%;
+}
+.navbar h3{
+    font-size: 4rem;
+}
+#divnavbar img{
+    position: absolute;
+    z-index: 3;
+    left: 33%;
+}
+#divnavbar h3{
+    position: absolute;
+    z-index: 2;
+    top: 20%;
+    left: 35%;
+}
+main h1{
+    text-align: center;
+    margin: 10px 0px;
+}
+.paragrafoum{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 31.25rem;
+}
+.paragrafoum p{
+    width: 420px;
+    text-indent: 15px;
+
+}
+.paragrafoum img{
+    max-height: 25rem;
+}
+.listinha{
+    width: 90%;
+    padding: 0% 4% 4% 4%;
+}
+.listinha li {
+    margin-top: 1%;
+}
+main p{
+    padding-left: 3%;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    background-color:rgb(251, 145, 145);
+}
